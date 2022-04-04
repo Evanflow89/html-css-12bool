@@ -1,15 +1,22 @@
 [class*="col"] {
     background-color: blue;
-    height: 40px;
+    min-height: 40px;
     border: 1px solid white;
     color: white;
 }
 
-.nested {
+.col-6.nested {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
 
 }
 
 .nest {
     background-color: greenyellow;
+}
+
+.container.middle {
+    margin-top: 20px;
 }
