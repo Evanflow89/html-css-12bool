@@ -1,0 +1,15 @@
+[class*="col"] {
+    background-color: blue;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+}
+
+.nested {
+    display: flex;
+
+}
+
+.nest {
+    background-color: greenyellow;
+}
